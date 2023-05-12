@@ -11,8 +11,14 @@ parameters = [
     { name = "dev.user.mongo", value = "MONGO=true" },
     { name = "dev.user.redis_host", value = "redis-dev.devops1722.com" },
     { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.devops1722.com:27017/users" },
+    { name = "dev.cart.redis_host", value = "redis-dev.devops1722.com" },
+    { name = "dev.cart.catalogue_host", value = "catalogue-dev.devops1722.com" },
+    { name = "dev.cart.catalogue_port", value = "8080" },
     
     
 
 ]
 
+#Environment=REDIS_HOST=redis.devops1722.com
+#Environment=CATALOGUE_HOST=catalogue.devops1722.com
+#Environment=CATALOGUE_PORT=8080
