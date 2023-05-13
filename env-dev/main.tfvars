@@ -14,11 +14,10 @@ parameters = [
     { name = "dev.cart.redis_host", value = "redis-dev.devops1722.com" },
     { name = "dev.cart.catalogue_host", value = "catalogue-dev.devops1722.com" },
     { name = "dev.cart.catalogue_port", value = "8080" },
+    { name = "dev.shipping.cart_endpoint", value = "cart-dev.devops1722.com:8080" },
+    { name = "dev.shipping.DB_HOST", value = "mysql-dev.devops1722.com" },
     
     
 
 ]
 
-#Environment=REDIS_HOST=redis.devops1722.com
-#Environment=CATALOGUE_HOST=catalogue.devops1722.com
-#Environment=CATALOGUE_PORT=8080
